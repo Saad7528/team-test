@@ -62,7 +62,6 @@ export default function Home() {
               Powered by Next.js 16, React 19, and Tailwind CSS.
             </p>
           </div>
-        </div>
 
         {/* Quick actions */}
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
@@ -82,8 +81,16 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-800/80 py-6 text-center text-xs text-zinc-500">
-        Created for Saad • Hexadevs Team Test Workspace
+      <footer className="relative border-t border-white/8">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-7 text-center sm:flex-row sm:text-left">
+          <p className="text-sm text-slate-500">
+            © Diponkor Roy. All rights reserved.
+          </p>
+
+          <p className="text-sm text-slate-500">
+            Designed with <span className="text-cyan-400">♥</span> and React
+          </p>
+        </div>
       </footer>
     </div>
   );
