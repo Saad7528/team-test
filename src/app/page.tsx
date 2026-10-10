@@ -13,30 +13,19 @@ export default function Home() {
             <span className="font-semibold text-zinc-100 tracking-tight text-lg">Saad&apos;s Workspace</span>
           </div>
 
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              Next.js Active
-            </span>
-          </div>
+          
         </div>
       </header>
 
       {/* Hero section */}
       <main className="flex-1 max-w-5xl mx-auto px-6 py-20 flex flex-col items-center justify-center text-center">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700/60 text-zinc-300 mb-8 backdrop-blur shadow-sm">
-          <span className="text-indigo-400">⚡</span>
-          <span>Next.js 16 + React 19 + Turbopack</span>
-        </div>
+       
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
           Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Saad</span>
         </h1>
 
-        <p className="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl leading-relaxed font-light">
-          Next.js সফলভাবে সেটআপ করা হয়েছে এবং Turbopack দিয়ে প্রজেক্ট চালু রয়েছে।
-        </p>
-
+        
         {/* Feature Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
           <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-zinc-700 transition duration-300 group">
