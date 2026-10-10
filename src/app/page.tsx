@@ -10,14 +10,18 @@ export default function Home() {
           <span>Hexadevs Team Test Project</span>
         </div>
 
-        <div className="space-y-4">
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 leading-tight">
-            Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Saad</span>
-          </h1>
-          <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-zinc-400">
-            Team Members: <span className="text-zinc-200">Pinon</span> &amp; <span className="text-zinc-200">Shakil Khan</span>
-          </h2>
-        </div>
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
+          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Saad</span>
+        </h1>
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
+          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Shakil khan</span>
+        </h1>
+        
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
+          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Shakil khan</span>
+        </h1>
+
+
 
         {/* Feature Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
