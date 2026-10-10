@@ -13,19 +13,23 @@ export default function Home() {
             <span className="font-semibold text-zinc-100 tracking-tight text-lg">Saad&apos;s Workspace</span>
           </div>
 
-          
+
         </div>
       </header>
 
       {/* Hero section */}
       <main className="flex-1 max-w-5xl mx-auto px-6 py-20 flex flex-col items-center justify-center text-center">
-       
+
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
-          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Pinon </span>
+          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">PINON </span>
         </h1>
-
+        <p className="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl">
+          I am a passionate software developer with a love for creating innovative solutions. Welcome to my personal workspace where I showcase my projects and share my journey in the world of technology.
+        </p>
         
+
+
         {/* Feature Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
           <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-zinc-700 transition duration-300 group">
