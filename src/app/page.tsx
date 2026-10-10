@@ -80,19 +80,15 @@ export default function Home() {
             I love turning ideas into useful digital experiences.
           </p>
 
-          {/* Buttons */}
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="https://github.com/diponkorroy064-max"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-full bg-linear-to-r from-cyan-400 to-blue-500 px-7 py-3.5 font-bold text-slate-950 shadow-xl shadow-cyan-500/20 transition duration-300 hover:-translate-y-1 hover:shadow-cyan-400/30"
-            >
-              Explore My GitHub
-              <span className="transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </a>
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
+          Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">PINON </span>
+        </h1>
+        <p className="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl">
+          I am a passionate software developer with a love for creating innovative solutions. Welcome to my personal workspace where I showcase my projects and share my journey in the world of technology.
+        </p>
+        <p>Hello</p>
+        <p>Hi</p>
+
 
             <a
               href="https://diponkor-roy.vercel.app"
