@@ -198,7 +198,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-8 inline-flex rounded-full bg-white px-7 py-3.5 font-bold text-slate-950 transition hover:bg-cyan-300"
           >
-            Connect on LinkedIn ↗
+            Connect on My LinkedIn ↗
           </a>
         </section>
       </main>
