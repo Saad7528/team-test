@@ -66,6 +66,7 @@ export default function Home() {
               Powered by Next.js 16, React 19, and Tailwind CSS.
             </p>
           </div>
+        </div>
 
         {/* Quick actions */}
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
