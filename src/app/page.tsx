@@ -27,6 +27,7 @@ export default function Home() {
         <p className="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl">
           I am a passionate software developer with a love for creating innovative solutions. Welcome to my personal workspace where I showcase my projects and share my journey in the world of technology.
         </p>
+        
 
 
         {/* Feature Grid */}
