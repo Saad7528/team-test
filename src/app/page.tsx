@@ -1,25 +1,14 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-black text-white flex flex-col justify-between selection:bg-indigo-500 selection:text-white">
-      {/* Navigation */}
-      <header className="border-b border-zinc-800/80 backdrop-blur-md sticky top-0 z-50 bg-zinc-950/70">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-violet-400 flex items-center justify-center font-bold text-sm shadow-lg shadow-indigo-500/20">
-              S
-            </div>
-            <span className="font-semibold text-zinc-100 tracking-tight text-lg">Saad&apos;s Workspace</span>
-          </div>
-
-          
-        </div>
-      </header>
-
+    <div className="flex-1 flex flex-col justify-between selection:bg-indigo-500 selection:text-white">
       {/* Hero section */}
       <main className="flex-1 max-w-5xl mx-auto px-6 py-20 flex flex-col items-center justify-center text-center">
-       
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700/60 text-zinc-300 mb-8 backdrop-blur shadow-sm">
+          <span className="text-indigo-400">⚡</span>
+          <span>Hexadevs Team Test Project</span>
+        </div>
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400 max-w-3xl leading-tight">
           Hello! My name is <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">Saad</span>
@@ -34,64 +23,78 @@ export default function Home() {
 
 
 
-        
         {/* Feature Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
-          <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-zinc-700 transition duration-300 group">
+          <Link
+            href="/saad"
+            className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-indigo-500/50 hover:bg-zinc-900/90 transition duration-300 group block"
+          >
             <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-4 group-hover:scale-110 transition-transform">
-              🚀
+              👤
             </div>
-            <h3 className="font-semibold text-zinc-100 text-lg mb-2">App Router Ready</h3>
+            <h3 className="font-semibold text-zinc-100 text-lg mb-2 flex items-center justify-between">
+              Saad&apos;s Route
+              <span className="text-xs text-indigo-400 group-hover:translate-x-0.5 transition-transform">→</span>
+            </h3>
             <p className="text-sm text-zinc-400 leading-normal">
-              Using the latest Next.js App Router inside <code className="text-xs bg-zinc-800 px-1.5 py-0.5 rounded text-zinc-300">src/app/</code>.
+              Visit the newly created <code className="text-xs bg-zinc-800 px-1.5 py-0.5 rounded text-zinc-300">/saad</code> route.
             </p>
-          </div>
+          </Link>
 
-          <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-zinc-700 transition duration-300 group">
+          <Link
+            href="/login"
+            className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-purple-500/50 hover:bg-zinc-900/90 transition duration-300 group block"
+          >
             <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-4 group-hover:scale-110 transition-transform">
-              ⚡
+              🔐
             </div>
-            <h3 className="font-semibold text-zinc-100 text-lg mb-2">Lightning Fast</h3>
+            <h3 className="font-semibold text-zinc-100 text-lg mb-2 flex items-center justify-between">
+              Login Page
+              <span className="text-xs text-purple-400 group-hover:translate-x-0.5 transition-transform">→</span>
+            </h3>
             <p className="text-sm text-zinc-400 leading-normal">
-              Powered by Turbopack for instant page reloads and optimal build times.
+              Modern authentication page with validation and state management.
             </p>
-          </div>
+          </Link>
 
           <div className="p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur hover:border-zinc-700 transition duration-300 group">
             <div className="w-10 h-10 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 mb-4 group-hover:scale-110 transition-transform">
-              🎨
+              ⚡
             </div>
-            <h3 className="font-semibold text-zinc-100 text-lg mb-2">Tailwind CSS v4</h3>
+            <h3 className="font-semibold text-zinc-100 text-lg mb-2">Fast &amp; Modern</h3>
             <p className="text-sm text-zinc-400 leading-normal">
-              Modern styling engine configured and ready for rapid UI development.
+              Powered by Next.js 16, React 19, and Tailwind CSS.
             </p>
           </div>
-        </div>
 
         {/* Quick actions */}
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="https://nextjs.org/docs"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/saad"
+            className="px-6 py-3 rounded-full bg-indigo-600 text-white font-medium hover:bg-indigo-500 transition shadow-lg shadow-indigo-600/20 text-sm"
+          >
+            View Saad Profile
+          </Link>
+          <Link
+            href="/login"
             className="px-6 py-3 rounded-full bg-white text-zinc-950 font-medium hover:bg-zinc-200 transition shadow-lg shadow-white/10 text-sm"
           >
-            Next.js Docs →
-          </a>
-          <a
-            href="https://nextjs.org/learn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 rounded-full bg-zinc-800/80 border border-zinc-700 text-zinc-200 font-medium hover:bg-zinc-700/80 transition text-sm"
-          >
-            Learn Next.js
-          </a>
+            Sign In / Login
+          </Link>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-800/80 py-6 text-center text-xs text-zinc-500">
-        Created for Saad • Hexadevs Team Test Workspace
+      <footer className="relative border-t border-white/8">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-7 text-center sm:flex-row sm:text-left">
+          <p className="text-sm text-slate-500">
+            © Diponkor Roy. All rights reserved.
+          </p>
+
+          <p className="text-sm text-slate-500">
+            Designed with <span className="text-cyan-400">♥</span> and React
+          </p>
+        </div>
       </footer>
     </div>
   );
